@@ -15,13 +15,34 @@ This repository aims to provide a comprehensive starting point for understanding
 
 ## Purpose of This Repository
 
-### Sequential Search
+The purpose of this repository is to help users understand and implement two basic search algorithms in Python. It includes detailed explanations, code examples, and usage instructions for both Sequential Search and Binary Search.
 
-Sequential Search, also known as Linear Search, is a basic search algorithm that checks each element in a list one by one until the desired element is found or the list ends. This repository provides examples of how to implement and use sequential search in Python.
+## Demo
 
-### Binary Search
+Here is a quick demo of how the search algorithms work:
 
-Binary Search is a more efficient search algorithm that works on sorted lists. It repeatedly divides the search interval in half and compares the target value to the middle element of the list. This repository includes examples of how to implement and use binary search in Python.
+```python
+# Sequential Search Example
+def sequential_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
+
+# Binary Search Example
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+```
 
 <hr><br>
 
@@ -36,19 +57,29 @@ Binary Search is a more efficient search algorithm that works on sorted lists. I
 
 - Python
 
-## Steps to Run
+## Project Setup
 
-1. Clone the repository:
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/guanshiyin28/Sequential-Search-and-Binary-Search.git
    ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
    ```bash
    cd Sequential-Search-and-Binary-Search
    ```
-3. Run the Python scripts:
+
+## Steps to Run
+
+To run the Python scripts, use the following commands:
+
+1. **Run the Sequential Search script:**
    ```bash
    python program_v2.py
+   ```
+2. **Run the Binary Search script:**
+   ```bash
    python program.py
    ```
 
