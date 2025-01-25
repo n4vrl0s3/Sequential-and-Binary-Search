@@ -8,6 +8,8 @@ This repository aims to provide a comprehensive starting point for understanding
 
 The purpose of this repository is to help users understand and implement two basic search algorithms in Python. It includes detailed explanations, code examples, and usage instructions for both Sequential Search and Binary Search.
 
+<hr><br>
+
 ## Demonstration
 
 Here is a quick demo of how the search algorithms work:
@@ -44,9 +46,13 @@ def binary_search(arr, target):
 - Example usage of both search algorithms
 - Detailed comments and explanations
 
+<hr><br>
+
 ## Technologies Used
 
 - Python
+
+<hr><br>
 
 ## Project Setup
 
@@ -61,6 +67,8 @@ To set up the project locally, follow these steps:
    cd Sequential-Search-and-Binary-Search
    ```
 
+<hr><br>
+
 ## Steps to Run
 
 To run the Python scripts, use the following commands:
@@ -73,6 +81,8 @@ To run the Python scripts, use the following commands:
    ```bash
    python program.py
    ```
+
+<hr><br>
 
 ## License
 
