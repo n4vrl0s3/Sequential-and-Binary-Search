@@ -1,4 +1,4 @@
-# Sequential Search and Binary Search
+# Sequential and Binary Search
 
 This repository aims to provide a comprehensive starting point for understanding and implementing two fundamental search algorithms: Sequential Search and Binary Search. These search algorithms are implemented in Python and serve as a great introduction to search techniques for beginners and intermediate programmers.
 
